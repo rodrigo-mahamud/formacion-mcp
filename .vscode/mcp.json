@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "staffing": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/src/server.ts"],
+      "dev": {
+        "watch": "src/**/*.ts"
+      }
+    }
+  }
+}

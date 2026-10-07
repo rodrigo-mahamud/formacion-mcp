@@ -1,0 +1,71 @@
+[
+  {
+    "id": "PRJ-01",
+    "cliente": "Aseguradora Atlas",
+    "sector": "Seguros",
+    "nombre": "Migración del core de pólizas",
+    "estado": "en curso",
+    "inicio": "2025-11-03",
+    "fin": "2026-10-30",
+    "modalidad": "Híbrido, 1 día/semana en Madrid",
+    "stack": ["Java", "Spring Boot", "Kafka", "Oracle"],
+    "equipo": ["C01"],
+    "necesita": []
+  },
+  {
+    "id": "PRJ-02",
+    "cliente": "Logística Boreal",
+    "sector": "Logística",
+    "nombre": "Tracking de flotas en tiempo real",
+    "estado": "en curso",
+    "inicio": "2026-03-02",
+    "fin": "2027-03-31",
+    "modalidad": "Remoto",
+    "stack": ["Go", "Java", "Kafka", "Kubernetes"],
+    "equipo": ["C02", "C12"],
+    "necesita": []
+  },
+  {
+    "id": "PRJ-03",
+    "cliente": "Retail Norte",
+    "sector": "Retail",
+    "nombre": "App de fidelización omnicanal",
+    "estado": "en curso",
+    "inicio": "2026-04-06",
+    "fin": "2027-02-26",
+    "modalidad": "Remoto",
+    "stack": ["Node.js", "React", "Flutter", "MongoDB"],
+    "equipo": ["C05", "C11"],
+    "necesita": []
+  },
+  {
+    "id": "PRJ-04",
+    "cliente": "Energía Solaris",
+    "sector": "Energía",
+    "nombre": "Portal de clientes y facturación",
+    "estado": "en curso",
+    "inicio": "2026-01-12",
+    "fin": "2027-01-15",
+    "modalidad": "Presencial en Zaragoza",
+    "stack": [".NET", "Azure", "SQL Server", "Playwright"],
+    "equipo": ["C07", "C09"],
+    "necesita": []
+  },
+  {
+    "id": "PRJ-05",
+    "cliente": "Banco Meridiano",
+    "sector": "Banca",
+    "nombre": "Plataforma de pagos instantáneos",
+    "estado": "por arrancar",
+    "inicio": "2026-11-16",
+    "fin": "2027-05-14",
+    "modalidad": "Híbrido, 2 días/semana en la oficina del cliente en Madrid",
+    "stack": ["Java", "Spring Boot", "Kafka", "React", "AWS"],
+    "equipo": [],
+    "necesita": [
+      { "rol": "Backend", "seniority": ["Senior"], "skills": ["Java", "Spring Boot", "Kafka"] },
+      { "rol": "Frontend", "seniority": ["Mid", "Senior"], "skills": ["React", "TypeScript"] },
+      { "rol": "DevOps", "seniority": ["Mid", "Senior"], "skills": ["AWS", "Kubernetes"] }
+    ]
+  }
+]

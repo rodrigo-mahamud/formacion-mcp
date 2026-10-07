@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "staffing": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["src/server.ts"],
+      "protocolEra": "modern"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "formacion-mcp-staffing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor MCP de demo para la formación: el staffing de una consultora ficticia",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "inspector": "mcp-inspector --catalog inspector.json",
+    "paso": "node scripts/paso.mjs",
+    "reset": "node scripts/reset.mjs",
+    "claude:instalar": "node scripts/claude-desktop.mjs instalar",
+    "claude:desinstalar": "node scripts/claude-desktop.mjs desinstalar",
+    "comprobar": "node scripts/comprobar.mjs",
+    "bonus:http": "node bonus/servidor-http.ts",
+    "bonus:python": "uv run --with mcp bonus/servidor.py",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.1.1",
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@modelcontextprotocol/inspector": "^2.9.0",
+    "@types/node": "^24.19.1",
+    "typescript": "^7.0.2"
+  }
+}

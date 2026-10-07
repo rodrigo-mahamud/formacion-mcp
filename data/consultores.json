@@ -1,0 +1,122 @@
+[
+  {
+    "id": "C01",
+    "nombre": "Lucía Ferrer",
+    "rol": "Backend",
+    "seniority": "Senior",
+    "skills": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "AWS"],
+    "ubicacion": "Madrid",
+    "proyecto": "PRJ-01",
+    "libreDesde": "2026-11-02"
+  },
+  {
+    "id": "C02",
+    "nombre": "Marcos Vidal",
+    "rol": "Backend",
+    "seniority": "Senior",
+    "skills": ["Java", "Spring Boot", "Kafka", "Kubernetes"],
+    "ubicacion": "Barcelona",
+    "proyecto": "PRJ-02",
+    "libreDesde": "2027-03-31"
+  },
+  {
+    "id": "C03",
+    "nombre": "Irene Soto",
+    "rol": "Frontend",
+    "seniority": "Mid",
+    "skills": ["React", "TypeScript", "Next.js", "Testing Library"],
+    "ubicacion": "Valencia",
+    "proyecto": null,
+    "libreDesde": "2026-09-15"
+  },
+  {
+    "id": "C04",
+    "nombre": "Daniel Ortega",
+    "rol": "Frontend",
+    "seniority": "Junior",
+    "skills": ["React", "JavaScript", "CSS"],
+    "ubicacion": "Madrid",
+    "proyecto": null,
+    "libreDesde": "2026-10-01"
+  },
+  {
+    "id": "C05",
+    "nombre": "Sara Núñez",
+    "rol": "Fullstack",
+    "seniority": "Senior",
+    "skills": ["Node.js", "TypeScript", "React", "MongoDB", "Azure"],
+    "ubicacion": "Madrid",
+    "proyecto": "PRJ-03",
+    "libreDesde": "2026-12-15"
+  },
+  {
+    "id": "C06",
+    "nombre": "Pablo Herrera",
+    "rol": "Data",
+    "seniority": "Mid",
+    "skills": ["Python", "Spark", "Kafka", "Airflow", "Databricks"],
+    "ubicacion": "Bilbao",
+    "proyecto": null,
+    "libreDesde": "2026-09-01"
+  },
+  {
+    "id": "C07",
+    "nombre": "Elena Ruiz",
+    "rol": "QA",
+    "seniority": "Mid",
+    "skills": ["Playwright", "Cypress", "Java", "Selenium"],
+    "ubicacion": "Madrid",
+    "proyecto": "PRJ-04",
+    "libreDesde": "2027-01-15"
+  },
+  {
+    "id": "C08",
+    "nombre": "Javier Molina",
+    "rol": "DevOps",
+    "seniority": "Senior",
+    "skills": ["Kubernetes", "Terraform", "AWS", "GitHub Actions"],
+    "ubicacion": "Soria",
+    "proyecto": null,
+    "libreDesde": "2026-09-22"
+  },
+  {
+    "id": "C09",
+    "nombre": "Nuria Campos",
+    "rol": "Backend",
+    "seniority": "Senior",
+    "skills": ["C#", ".NET", "Azure", "SQL Server"],
+    "ubicacion": "Zaragoza",
+    "proyecto": "PRJ-04",
+    "libreDesde": "2027-01-15"
+  },
+  {
+    "id": "C10",
+    "nombre": "Hugo Blanco",
+    "rol": "Backend",
+    "seniority": "Junior",
+    "skills": ["Java", "Spring Boot", "MySQL"],
+    "ubicacion": "Madrid",
+    "proyecto": null,
+    "libreDesde": "2026-09-08"
+  },
+  {
+    "id": "C11",
+    "nombre": "Carmen Lozano",
+    "rol": "Mobile",
+    "seniority": "Mid",
+    "skills": ["Kotlin", "Swift", "Flutter"],
+    "ubicacion": "Málaga",
+    "proyecto": "PRJ-03",
+    "libreDesde": "2027-02-26"
+  },
+  {
+    "id": "C12",
+    "nombre": "Álvaro Prieto",
+    "rol": "Backend",
+    "seniority": "Mid",
+    "skills": ["Go", "gRPC", "Kafka", "PostgreSQL"],
+    "ubicacion": "A Coruña",
+    "proyecto": "PRJ-02",
+    "libreDesde": "2026-11-13"
+  }
+]

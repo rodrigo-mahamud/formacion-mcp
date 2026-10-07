@@ -1,0 +1,17 @@
+{
+  // Solo para que el editor y "npm run typecheck" revisen tipos.
+  // No compilamos nada: Node 24 ejecuta los .ts directamente.
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "pasos", "bonus"]
+}
