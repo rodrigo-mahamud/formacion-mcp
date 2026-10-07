@@ -10,9 +10,13 @@ El objetivo no es el staffing: es ver, con un caso que se entiende en un minuto,
 - Un cliente MCP: Claude Desktop, VS Code con GitHub Copilot, Claude Code, Cursor...
 
 ```bash
+git clone https://github.com/rodrigo-mahamud/formacion-mcp
+cd formacion-mcp
 npm install
 npm run comprobar     # ensaya todos los pasos y te dice si está todo listo
 ```
+
+`src/server.ts` empieza vacío, como al principio de la formación. Para ver el servidor terminado: `npm run paso 4` (o abre `pasos/paso-4.ts`).
 
 ## Qué hay aquí
 
